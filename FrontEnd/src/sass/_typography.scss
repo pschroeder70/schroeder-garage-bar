@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Audiowide";
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link);
+  &:hover {
+    opacity: 75%;
+    text-decoration: underline;
+  }
+}
