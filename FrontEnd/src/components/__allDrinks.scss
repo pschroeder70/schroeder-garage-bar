@@ -1,0 +1,30 @@
+.drink-wrapper {
+    cursor: pointer;
+}
+
+.drink__modal {
+    max-width: 50%;
+}
+
+.drink {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drink__image {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+} 
+
+.drink__ingredients {
+    width: 50%;
+}
+
+.drink__name,
+.drink__glass,
+.drink__disc,
+.drink__instructions {
+    width: 100%;
+}

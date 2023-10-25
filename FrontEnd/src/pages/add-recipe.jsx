@@ -1,10 +1,13 @@
 import React from 'react'
 
+import AddDrink from '../components/AddDrink'
+
 function AddRecipe() {
   return (
-    <div>
-      add a new recipe
-    </div>
+    <>
+      <h1>Add a drink</h1>
+      <AddDrink />
+    </>
   )
 }
 
